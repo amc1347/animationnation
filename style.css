@@ -23,7 +23,6 @@ body {
 }
 
 .flame1 {
-  margin-left: .9vw;
   padding: 0;
   animation-name: flash;
   animation-duration: 3s;
@@ -33,7 +32,6 @@ body {
 }
 
 .flame2 {
-  margin-left: .9vw;
   padding: 0;
   animation-name: flash;
   animation-duration: 3s;
@@ -43,7 +41,6 @@ body {
 }
 
 .flame3 {
-  margin-left: .9vw;
   animation-name: flash;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -52,7 +49,6 @@ body {
 }
 
 .flame4 {
-  margin-left: .9vw;
   animation-name: flash;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -61,6 +57,7 @@ body {
 }
 
 #matchstick {
+  width: 1102px;
   display: flex;
   justify-content: center;
   align-items: center;
