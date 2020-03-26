@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#whole {
+}
+
+#black {
+  display: flex;
+  background-color: black;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.flame1, .flame2, .flame3, .flame4 {
+  display: flex;
+  justify-content: center;
+  height: 1px;
+}
+
+.flame1 {
+  margin-left: .9vw;
+  padding: 0;
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+}
+
+.flame2 {
+  margin-left: .9vw;
+  padding: 0;
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+.flame3 {
+  margin-left: .9vw;
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+}
+
+.flame4 {
+  margin-left: .9vw;
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+#matchstick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 890px;
+}
+
+/* Animations (hopefully...)*/
+/* https://www.youtube.com/watch?v=B9OZkATMbag */
+
+@keyframes flash {
+  0%{
+  opacity:1;
+}
+  50%{
+  opacity:0;
+}
+  100%{
+    opacity:1;
+  }
+}
