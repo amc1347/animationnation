@@ -18,6 +18,7 @@ body {
 
 .flame1, .flame2, .flame3, .flame4 {
   display: flex;
+  margin-left: 0.5vw;
   justify-content: center;
   height: 1px;
 }
@@ -57,7 +58,6 @@ body {
 }
 
 #matchstick {
-  width: 1102px;
   display: flex;
   justify-content: center;
   align-items: center;
